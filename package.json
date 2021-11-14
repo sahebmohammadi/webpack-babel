@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev-server": "webpack serve --open",
-    "webpack": "webpack",
-    "build": "babel src/index.js -o public/scripts/bundle.js --presets @babel/preset-env --watch"
+    "webpack": "webpack ./src/js/app.js -o ./public/bundle.js",
+    "build": "babel src/js/app.js -o public/bundle.js --presets @babel/preset-env --watch"
   },
   "keywords": [],
   "author": "",
