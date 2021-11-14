@@ -1,0 +1,22 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev-server": "webpack serve --open",
+    "webpack": "webpack",
+    "build": "babel src/index.js -o public/scripts/bundle.js --presets @babel/preset-env --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
