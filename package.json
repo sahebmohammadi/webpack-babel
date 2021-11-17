@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack serve --open",
-    "build": "webpack ./src/js/app.js -o ./public --mode production",
-    "babel": "babel src/js/app.js -o public/bundle.js --presets @babel/preset-env --watch"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
