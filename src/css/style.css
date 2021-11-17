@@ -1,8 +1,3 @@
-main {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
 .container {
   text-align: center;
 }
@@ -10,22 +5,19 @@ main {
   font-size: 6rem;
   font-weight: bold;
 }
-::root {
-  --clr-black: #444;
-}
+
 .btn {
   text-transform: uppercase;
   background: transparent;
-  color: var(--clr-black);
+  color: #444;
   padding: 0.375rem 0.75rem;
-  letter-spacing: var(--spacing);
   display: inline-block;
-  transition: var(--transition);
+  transition: all 0.3s ease-in-out;
   font-size: 0.875rem;
-  border: 2px solid var(--clr-black);
+  border: 2px solid #444;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: var(--radius);
+  border-radius: 5px;
   margin: 0.5rem;
 }
 .btn:hover {

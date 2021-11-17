@@ -1,4 +1,6 @@
 import { btns, value } from "./dom-loader.js";
+import "../css/main.css";
+import "../css/style.css";
 
 let count = 0;
 // select value and buttons
@@ -26,4 +28,3 @@ btns.forEach(function (btn) {
     value.textContent = count;
   });
 });
-s;
